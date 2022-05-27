@@ -19,9 +19,7 @@ const SoundLevel = {
             }
         );
 
-        SoundLevelModule.start(monitorInterval);
-
-        return true;
+        return SoundLevelModule.start(monitorInterval);
     },
 
     removeListener: function () {
@@ -29,9 +27,7 @@ const SoundLevel = {
             this.frameSubscription.remove();
         }
 
-        SoundLevelModule.stop();
-
-        return true;
+        return SoundLevelModule.stop();
     },
 };
 
