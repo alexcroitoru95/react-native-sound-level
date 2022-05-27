@@ -1,35 +1,49 @@
 {
-  "name": "react-native-sound-level",
-  "version": "1.1.5",
-  "description": "A package to dynamically measure microphone input level",
-  "main": "index.js",
-  "author": "Vladimir Osipov (https://github.com/punarinta)",
-  "homepage": "https://github.com/punarinta/react-native-sound-level",
-  "files": [
-    "README.md",
-    "LICENSE",
-    "index.js",
-    "RNSoundLevel.podspec",
-    "android/*",
-    "ios/RNSoundLevelModule.m",
-    "ios/RNSoundLevelModule.h",
-    "ios/RNSoundLevel.xcodeproj",
-    "desktop/*"
-  ],
-  "keywords": [
-    "react-native",
-    "microphone",
-    "input",
-    "level",
-    "measure"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:punarinta/react-native-sound-level.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/punarinta/react-native-sound-level/issues"
-  },
-  "nativePackage": true
+    "name": "react-native-sound-level",
+    "version": "1.1.5",
+    "description": "A package to dynamically measure microphone input level",
+    "main": "index.tsx",
+    "types": "index.d.ts",
+    "author": "Vladimir Osipov (https://github.com/punarinta)",
+    "homepage": "https://github.com/punarinta/react-native-sound-level",
+    "devDependencies": {
+        "@react-native-community/eslint-config": "2.0.0",
+        "@types/react": "17.0.2",
+        "@types/react-native": "0.66.4",
+        "eslint": "7.32.0",
+        "eslint-config-prettier": "7.2.0",
+        "eslint-plugin-prettier": "3.4.1",
+        "husky": "7.0.4",
+        "prettier": "2.4.1",
+        "react": "17.0.2",
+        "react-native": "0.66.4",
+        "typescript": "4.3.5"
+    },
+    "files": [
+        "README.md",
+        "LICENSE",
+        "index.js",
+        "RNSoundLevel.podspec",
+        "android/*",
+        "ios/RNSoundLevelModule.m",
+        "ios/RNSoundLevelModule.h",
+        "ios/RNSoundLevel.xcodeproj",
+        "desktop/*"
+    ],
+    "keywords": [
+        "react-native",
+        "microphone",
+        "input",
+        "level",
+        "measure"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:punarinta/react-native-sound-level.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/punarinta/react-native-sound-level/issues"
+    },
+    "nativePackage": true
 }
