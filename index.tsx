@@ -12,7 +12,7 @@ const SoundLevelModule = NativeModules.RNSoundLevelModule;
 export default class SoundLevel extends React.Component {
     frameSubscription: EmitterSubscription = null;
 
-    addSoundListener = (monitorInterval = 250) => {
+    addListener = (monitorInterval = 250) => {
         if (this.frameSubscription) {
             this.frameSubscription.remove();
         }
@@ -31,7 +31,7 @@ export default class SoundLevel extends React.Component {
         return result;
     };
 
-    removeSoundListener = () => {
+    removeListener = () => {
         if (this.frameSubscription) {
             this.frameSubscription.remove();
         }

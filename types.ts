@@ -20,7 +20,7 @@ export type SoundLevelType = {
     /**
      * @description monitoringInterval works only for iOS
      */
-    start: (monitoringInterval?: number) => void;
-    stop: () => void;
+    addListener: (monitoringInterval?: number) => void;
+    removeListener: () => void;
     onNewFrame: (result: SoundLevelResultType) => void;
 };
